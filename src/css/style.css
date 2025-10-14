@@ -1,0 +1,24 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+h1 {
+  font-family: "Secular One", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+main .personagem {
+  display: none;
+}
+
+main .personagem.selecionado {
+  display: block;
+}
+main .personagem .imagem {
+  width: 100%;
+  height: 100%;
+}
