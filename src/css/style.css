@@ -52,7 +52,6 @@ main .personagem .imagem {
 }
 
 .conteudo .nome-personagem {
-  border-radius: 10px;
   color: white;
   font-size: 30px;
   font-family: "Secular One", sans-serif;
@@ -89,7 +88,7 @@ main .personagem .imagem {
   gap: 30px;
   padding: 10px;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.3 );
+  background-color: rgba(0, 0, 0, 0.1 );
 }
 
 .botoes .botao{
@@ -104,7 +103,7 @@ main .personagem .imagem {
   height: 80px;
   border-radius: 50%;
   border: 2px solid transparent;
-  transition: border-color 0.7s;
+  transition: border-color 0.7s ease-in-out;
 }
 
 .botoes .botao img:hover {
